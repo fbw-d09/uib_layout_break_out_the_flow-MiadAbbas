@@ -7,8 +7,10 @@ html, body {
     height: 200px;
     width: 200px;
     background-color: orange;
-    margin-left: 40%;
-    margin-top: 7px;
+    margin: auto;
+    position: relative;
+    top: 7px;
+    left: 5px;
     text-align: center;
 }
 .box {
@@ -18,20 +20,21 @@ html, body {
 }
 .box1 {
     background-color: red;
-    position: fixed;
-    top: 550px;
+    position: absolute;
+   bottom: 0px;
+   left: 0px;
 
 }
 .box2 {
     background-color: rgb(0, 255, 85);
     position:absolute;
-    top: 540px;
+    bottom: 10px;
     left: 10px;
 }
 .box3 {
     background-color: rgb(0, 183, 255);
     position: absolute;
-    top: 530px;
+    bottom: 20px;
     left: 20px;
 }
 
